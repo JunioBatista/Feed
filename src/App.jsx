@@ -16,7 +16,7 @@ function App() {
         <main>
           <Post 
             autor=" Junio Batista da Silva"
-            content="O Junio é um viadinho pao com oovo."
+            content="Este é o conteudo de um post!"
           />
         </main>
       </div>
