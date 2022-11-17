@@ -1,3 +1,5 @@
+import { Avatar } from './Avatar'
+import { Comment } from './Comment'
 import styles from './Post.module.css'
 
 export function Post(props) {
@@ -6,7 +8,7 @@ export function Post(props) {
             <header>
 
                 <div className={styles.author}>
-                    <img className={styles.avatar} src="https://github.com/JunioBatista.png" alt="foto do perfil" />
+                    <Avatar image="https://github.com/JunioBatista.png"/>
                     <div className={styles.authorInfo}>
                         <strong> Junio Batista </strong>
                         <span> Full Stack Developer </span>
@@ -17,14 +19,14 @@ export function Post(props) {
             <div className={styles.content}>
                 <p>Fala galeraa 👋</p>
 
-                <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀</p>
+                <p>Acabei de subir mais um projeto no meu portifolio.</p>
 
-                <p><a href="#">👉 jane.design/doctorcare</a></p>
+                <p><a href="#">👉 junio.com/projeto</a></p>
 
                 <p>
                     <a href="#">#novoprojeto</a> {' '}
-                    <a href="#">#nlw</a>{' '}
-                    <a href="#"> #rocketseat</a>{' '}
+                    <a href="#">#dev</a>{' '}
+                    <a href="#"> #frontend</a>{' '}
                 </p>
             </div>
 
@@ -37,6 +39,12 @@ export function Post(props) {
                     <button type="submit">Comentar</button>
                 </footer>
             </form>
+
+            <div className={styles.commentList}>
+                <Comment />
+                <Comment />
+                <Comment />
+            </div>
         </article>
     )
 }
