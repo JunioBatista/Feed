@@ -1,7 +1,7 @@
 # Feed de rede social
 
-<p>Projeto desenvolvido para aprofundar aprendizado nas tecnologias básicas:</p>
-<p> React, Javascript, HTML, CSS.</p>
+<p>Projeto desenvolvido para aprofundar aprendizado nas tecnologias básicas pela rocketseat.</p>
+<p> Tecnologias: React, Javascript, HTML, CSS.</p>
 
 <p>página estática focada em codigo limpo, estilização, componentização e responsividade.</p>
 
