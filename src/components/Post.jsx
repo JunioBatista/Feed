@@ -21,7 +21,7 @@ export function Post(props) {
 
                 <p>Acabei de subir mais um projeto no meu portifolio.</p>
 
-                <p><a href="#">👉 junio.com/projeto</a></p>
+                <p><a href="#">👉 https://github.com/JunioBatista </a></p>
 
                 <p>
                     <a href="#">#novoprojeto</a> {' '}
